@@ -36,6 +36,14 @@ Console.Write($"The second number from tree-digit number {num} is {SecondNum(num
 /*
 int ThirdNum(int num)
 {
+    if(num >= 1000) 
+    {
+        while(num >= 1000)
+        {
+            num = num / 10;
+        }
+    }
+    
     num = num % 10;
     return num;
 }
@@ -50,14 +58,6 @@ if(num < 100)
     goto Input;
 }
 
-if(num >= 1000) 
-{
-    while(num >= 1000)
-    {
-        num = num / 10;
-    }
-}
-
 Console.Write($"The third number is {ThirdNum(num)}");
 */
 
@@ -65,20 +65,15 @@ Console.Write($"The third number is {ThirdNum(num)}");
 // Задача 3. Напишите программу, которая принимает на вход цифру, 
 // обозначающую день недели и проверяет, является ли этот день выходным
 
+/*
 bool Day(int num)
 {
-    if(num <= 7) 
-    {
-        return true;
-    }
-    
-    else 
-    {
-        return false;
-    }
+    if(num > 5 && num < 8) return true;
+    else return false;
 }
 
-Console.Write("Input day of week ");
-int num = Convert.ToInt32(Console.Read());
+Console.Write("Input a day of the week: ");
+int num = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Is it weekend? " + Day(num));
+*/
