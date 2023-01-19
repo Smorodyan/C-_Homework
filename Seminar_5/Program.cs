@@ -193,7 +193,7 @@ Console.Write("Is there the number: " + num + " in the array - " + FindNumber(ne
 
 
 // Задача_5. Необходимо задать массив из N элементов и определить количество элементов, 
-// принадлежащих отрезку от А до В (включительно)
+// принадлежащих отрезку от А до В (включительно) и указать количестов этих элементов
 
 
 int[] CreateRandomArray(int size, int minValue, int maxValue)
@@ -211,25 +211,18 @@ void ShowArray(int[] array)
     Console.WriteLine();
 }
 
-void ArrayRange(int[] array, int num_1, int num_2)
+int ArrayRange(int[] array, int num_1, int num_2)
 {
-    //int[] array_2 = new int[size];
-    for(int i = num_1; i <= num_2; i++)
-       // array_2[i] = Console.Write(array[i]);
+    int count = 0;
+    for(int i = num_1 - 1; i <= num_2 - 1; i++)
+       {
         Console.Write(array[i] + " ");
-    
-    //return array_2;
-    //Console.WriteLine();
+        count++;
+       }
+    Console.WriteLine();
+    Console.Write("Number of elements: ");
+    return count;
 }
-
-// int ArrayRange(int[] array, int num_1, int num_2)
-// {
-//     int count = 0;
-//     for(int i = 0; i < array.Length; i++)
-//         if(i >= num_1 && i <= num_2) count += 1;
-
-//     return count;
-// }
 
 Console.Write("Input a length of array: ");
 int length = Convert.ToInt32(Console.ReadLine());
@@ -245,12 +238,8 @@ Console.WriteLine("Input num_1 & num_2 for the range to count: ");
 int num_1 = Convert.ToInt32(Console.ReadLine());
 int num_2 = Convert.ToInt32(Console.ReadLine());
 
-//int[] newArray_2 = ArrayRange(newArray, length, num_1, num_2);
-//Console.Write(newArray_2);
+Console.Write("This is the arrya from the range: ");
 Console.Write(ArrayRange(newArray, num_1, num_2));
 
-//Console.Write(ArrayRange(newArray, num_1, num_2));
 
 
-// Задача_6. Напишите программу, которая определяет присутсвует ли заданное число в массиве
-// и сколько раз
