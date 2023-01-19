@@ -1,0 +1,15 @@
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\obj\Debug\net6.0\Lecture_4.csproj.AssemblyReference.cache
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\obj\Debug\net6.0\Lecture_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\obj\Debug\net6.0\Lecture_4.AssemblyInfoInputs.cache
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\obj\Debug\net6.0\Lecture_4.AssemblyInfo.cs
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\obj\Debug\net6.0\Lecture_4.csproj.CoreCompileInputs.cache
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\bin\Debug\net6.0\Lecture_4.exe
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\bin\Debug\net6.0\Lecture_4.deps.json
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\bin\Debug\net6.0\Lecture_4.runtimeconfig.json
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\bin\Debug\net6.0\Lecture_4.dll
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\bin\Debug\net6.0\Lecture_4.pdb
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\obj\Debug\net6.0\Lecture_4.dll
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\obj\Debug\net6.0\refint\Lecture_4.dll
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\obj\Debug\net6.0\Lecture_4.pdb
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\obj\Debug\net6.0\Lecture_4.genruntimeconfig.cache
+C:\Users\smoro\OneDrive\My\GeekBrains\C#\Seminars\Lecture_4\obj\Debug\net6.0\ref\Lecture_4.dll
