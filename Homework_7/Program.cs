@@ -49,7 +49,7 @@ Show2dArray(newArray);
 // 8 4 2 4
 // 1 7 -> элемента с такими индексами в массиве нет
 
-/*
+
 int[,] CreateRandom2dArray()
 {
     Console.Write("input a number of rows: ");
@@ -79,7 +79,7 @@ void Show2dArray(int[,] array)
         }
     Console.WriteLine();    
 }
-
+/*
 void FindPosition(int[,] array, int pos_1, int pos_2)
 {
     int a = 0;
@@ -98,7 +98,20 @@ void FindPosition(int[,] array, int pos_1, int pos_2)
     else Console.Write("There is no any element on this position");
         
 }
+*/
 
+void FindPosition(int[,] array, int pos_1, int pos_2)
+{
+    if(pos_1 >= array.GetLength(0) || pos_2 >= array.GetLength(1)) 
+        Console.Write("There is no any element on this position");
+    else
+    {
+        for(int i = 0; i < array.GetLength(0); i++)
+            for(int j = 0; j < array.GetLength(1); j++)
+                if(i == pos_1 && j == pos_2)
+                    Console.Write($"The element value on the position ({pos_1}, {pos_2}) is {array[i,j]}");
+    }            
+}
 
 int[,] newArray = CreateRandom2dArray();
 Show2dArray(newArray);
@@ -110,7 +123,7 @@ Console.Write("Second position: ");
 int pos_2 = Convert.ToInt32(Console.ReadLine());
 
 FindPosition(newArray, pos_1, pos_2);
-*/
+
 
 
 // Задача_3. Задайте двумерный массив из целых чисел. 
@@ -120,7 +133,7 @@ FindPosition(newArray, pos_1, pos_2);
 // 8 4 2 4
 // Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3
 
-
+/*
 int[,] CreateRandom2dArray()
 {
     Console.Write("input a number of rows: ");
@@ -181,4 +194,4 @@ Show2dArray(newArray);
 
 double[] oneDarray = ColumnsAverage(newArray);
 ShowArray(oneDarray);
-
+*/
